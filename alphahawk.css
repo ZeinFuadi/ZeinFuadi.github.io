@@ -1,0 +1,105 @@
+@font-face {
+    src: url(font/Cocogoose\ Pro\ Semilight-trial.ttf) format('truetype');
+    font-family: Title ;
+}
+@font-face {
+    src: url(font/coolvetica\ rg.otf) format('truetype');
+    font-family: Cont ;
+}
+.nav-color {
+    background-color: darkred;
+}
+.text-custom {
+    color: white;
+    font-size: 20px;
+}
+.bg-image {
+    max-height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #242424;
+}
+.bg-image img{
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img1 {
+    background-image: url("img/background.png");
+}
+.blur {
+    filter: blur(10px);
+}
+.img-anim {
+    overflow: hidden;
+}
+.img-anim img{
+    transition: all 1.5s ease;
+}
+.img-anim :hover img{
+    transform: scale(1.2);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    opacity: .7;
+}
+.card-css {
+    background-color: white;
+    border-radius: 5%;
+    border: 10px;
+    border-color: darkred;
+}
+.text-title { 
+    color: black;
+    font-family: Title ;
+}
+.text-content {
+    font-family: cont ;
+}
+.vid {
+    width: 100%;
+}
+.logo-anim :hover img{
+    overflow: hidden;
+    transition: all 1.5s ease;
+    transform: scale(1.2);
+}
+html {
+    scroll-behavior: smooth;
+}
+.rightt {
+    align-items: right;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 100%;
+    padding: 0 0px;
+  }
+  
+  .column img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }

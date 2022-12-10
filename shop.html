@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop-Comingsoon</title>
+    <style>
+@font-face {
+    src: url(font/Cocogoose\ Pro\ Semilight\ Italic-trial.ttf) format('truetype');
+    font-family: Title ;
+}
+@font-face {
+    src: url(font/cocogoose-pro.semilight.ttf) format('truetype');
+    font-family: Title2 ;
+}
+body, html {
+    background-image: url("img/background.png");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    font-family: Techno ;
+}
+.nav-color {
+    background-color: darkred;
+
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+<body>
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg nav-dark nav-color Sticky-top mt-3">
+          <div class="container-fluid">
+            <a href="AlphaHawk2.html" class="navbar-brand mx-5">
+              <img src="img/alphahawklogo.png" onclick="topFunction()" alt="AlphaHawkLogo" width="80">
+            </a>
+          </div>
+        </nav>
+    </header>
+    <div class="bg-image"></div>
+
+<div class="bg-text">
+  <h5 style="font-family: title2 ;">ALPHA HAWK MERCH</h5>
+  <BR>
+  <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: BOLD ;">VOL.1 IS OVER</h1>
+  <h4 style="font-family: title ;">SEE YOU NEXT</h4>
+  <br>
+  <a href="AlphaHawk2.html">
+  <button class="btn btn-success btn-sm">GO BACK</button>
+  </a>
+</div>
+</body>
+</html>
